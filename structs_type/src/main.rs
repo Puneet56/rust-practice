@@ -1,4 +1,5 @@
 #[derive(Debug)] //this helps us to print the Rectangle object using {:?} in println!
+#[derive(Clone, Copy)]
 struct Rectangle {
     width: u32,
     height: u32,
@@ -20,7 +21,7 @@ impl Rectangle {
         }
     }
 
-    fn can_hold(&self, other: Rectangle) -> bool {
+    fn can_hold(&self, &other: &Rectangle) -> bool {
         self.width > other.width && self.height > other.height
     }
 }
@@ -33,7 +34,7 @@ fn main() {
 
     rect.increase_height(5);
 
-    let square = Rectangle::square(5);
+    let mut square = Rectangle::square(5);
 
     println!("Rectangle is {:?} and its area is {}", rect, rect.area());
 
@@ -41,7 +42,18 @@ fn main() {
 
     println!(
         "Rectangle {} hold square",
-        if rect.can_hold(square) {
+        if rect.can_hold(&square) {
+            "can"
+        } else {
+            "cannot"
+        }
+    );
+
+    square.increase_height(254);
+
+    println!(
+        "Rectangle {} hold square",
+        if rect.can_hold(&square) {
             "can"
         } else {
             "cannot"
