@@ -1,0 +1,24 @@
+Rust, a language born anew
+Built to tackle what's old and new
+A language crafted with great care
+With performance and safety, a pair so rare
+
+Rust, with its fearless concurrency
+Unafraid of the challenges of modernity
+Thread-safety and race conditions it can quell
+Making it a language that excels
+
+From systems programming to web apps
+Rust's capabilities, the developer taps
+Its syntax, both elegant and terse
+Makes writing code less like a curse
+
+With ownership and borrowing, Rust ensures
+Memory safety, with no memory cures
+A language that's got your back
+Making it hard to write buggy code, in fact
+
+Rust, a language that's here to stay
+For those who seek both speed and safety's way
+A language that's sure to impress
+And put any coder's skills to the test
