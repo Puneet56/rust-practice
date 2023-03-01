@@ -1,0 +1,7 @@
+Searching for Rust
+In file rust_poem.txt
+Rust, a language born anew
+Rust, with its fearless concurrency
+Rust's capabilities, the developer taps
+With ownership and borrowing, Rust ensures
+Rust, a language that's here to stay
